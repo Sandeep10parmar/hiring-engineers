@@ -39,7 +39,9 @@ In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory 
 
 * Screenshot for datadog.yaml changes:
 
-  [](Images/MySQL_File.png)
+[](Images/MySQL_File.png)
+
+
   
   
 
