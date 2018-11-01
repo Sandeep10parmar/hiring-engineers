@@ -27,9 +27,7 @@ datadog-agent start/running, process 2648
 
 Below is screenshot that shows metrics reported by agent in UI
 
-![DataDog Reported Metrics for host](Images/Dashboard_Metrics.png)
-
-<img src="Images/Dashboard_Metrics.png" width="2000">
+<img src="Images/Dashboard_Metrics.png" width="1700">
 
 
 # Collecting Metrics
