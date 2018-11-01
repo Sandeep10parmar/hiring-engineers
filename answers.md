@@ -25,9 +25,9 @@ vagrant@precise64:~$ datadog-agent status
 
 datadog-agent start/running, process 2648
 
-Below is screenshot that shows metrics reported by agent in UI
+* Below is screenshot that shows metrics reported by agent in UI
 
-<img src="Images/Dashboard_Metrics.png" width="1200">
+  <img src="Images/Dashboard_Metrics.png" width="800">
 
 
 # Collecting Metrics
@@ -53,6 +53,9 @@ In this section I learned how to collect metrics/monitor for a database. It was 
 Value I see in the metrics is that we are able to collect OS, System and now DB level metrics all via single agent with minimal effort. Not only that, but custom metrics can be defined to look at specific aspect of the target. 
 
 * Here is the screenshot of the config file
+  <img src="Images/MySql_File.png" width="500">
+  
+  
 
 
   
