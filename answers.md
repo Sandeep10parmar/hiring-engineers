@@ -42,6 +42,8 @@ In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory 
 [](Images/MySQL_File.png)
 
 
+
+
   
   
 
