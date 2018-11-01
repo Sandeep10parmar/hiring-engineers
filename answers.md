@@ -43,7 +43,18 @@ In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory 
   
 * Here is the screenshot with all the tags listed for monitored host
 
-  <img src="Images/Host_map_tag" width="500">
+  <img src="Images/Host_map_tag.png" width="500">
+  
+  
+## MySQL Integration
+
+In this section I learned how to collect metrics/monitor for a database. It was a simple configuration to build mysql.yaml file in conf.d directory of the datadog agent (Screenshot below).
+
+Value I see in the metrics is that we are able to collect OS, System and now DB level metrics all via single agent with minimal effort. Not only that, but custom metrics can be defined to look at specific aspect of the target. 
+
+* Here is the screenshot of the config file
+
+
   
   
  
