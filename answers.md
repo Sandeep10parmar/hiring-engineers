@@ -20,13 +20,14 @@ vagrant@precise64:~$ cat /proc/version
 Linux version 3.2.0-23-generic (buildd@crested) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu4) ) #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
 
 ## Datadog Agent Status
-1.4.	DataDog Agent Status
 
 vagrant@precise64:~$ datadog-agent status 
 
 datadog-agent start/running, process 2648
 
-![Datadog Metrics View from Agent ](https://cl.ly/c2b36f3d051e)
+![DataDog Reported Metrics for host](Images/Dashboard_Metrics.png)
+
+
 
 
  
