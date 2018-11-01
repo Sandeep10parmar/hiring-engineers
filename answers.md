@@ -29,7 +29,7 @@ Below is screenshot that shows metrics reported by agent in UI
 
 ![DataDog Reported Metrics for host](Images/Dashboard_Metrics.png)
 
-<img src="Images/Dashboard_Metrics.png" width="200">
+<img src="Images/Dashboard_Metrics.png" width="2000">
 
 
 # Collecting Metrics
