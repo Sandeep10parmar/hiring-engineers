@@ -27,7 +27,7 @@ datadog-agent start/running, process 2648
 
 Below is screenshot that shows metrics reported by agent in UI
 
-<img src="Images/Dashboard_Metrics.png" width="1500">
+<img src="Images/Dashboard_Metrics.png" width="1200">
 
 
 # Collecting Metrics
@@ -40,6 +40,12 @@ In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory 
 * Screenshot for datadog.yaml changes:
 
   <img src="Images/Tags.png" width="500">
+  
+* Here is the screenshot with all the tags listed for monitored host
+
+  <img src="Images/Host_map_tag" width="500">
+  
+  
  
   
  
