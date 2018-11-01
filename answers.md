@@ -25,7 +25,27 @@ vagrant@precise64:~$ datadog-agent status
 
 datadog-agent start/running, process 2648
 
+Below is screenshot that shows metrics reported by agent in UI
+
 ![DataDog Reported Metrics for host](Images/Dashboard_Metrics.png)
+
+
+# Collecting Metrics
+
+## Adding Tags in Agent Config
+Tags are popular mechanism to manage Configuration Items at scale. All the layers of technology today from Physical to App have capabilities of adding Tags to instances so that they can be easily categorized and managed. 
+
+In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory  and configure tags for the VM. Tags I created – owner, location and role with format highlighted in image below. I had to restart agent to populate the tags in UI as they didn’t appear at first. 
+
+* Screenshot for datadog.yaml changes:
+
+  [](Images/MySQL_File.png)
+  
+  
+
+
+
+
 
 
 
