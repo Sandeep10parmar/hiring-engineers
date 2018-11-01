@@ -27,7 +27,7 @@ datadog-agent start/running, process 2648
 
 Below is screenshot that shows metrics reported by agent in UI
 
-<img src="Images/Dashboard_Metrics.png" width="1700">
+<img src="Images/Dashboard_Metrics.png" width="1500">
 
 
 # Collecting Metrics
@@ -38,8 +38,9 @@ Tags are popular mechanism to manage Configuration Items at scale. All the layer
 In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory  and configure tags for the VM. Tags I created – owner, location and role with format highlighted in image below. I had to restart agent to populate the tags in UI as they didn’t appear at first. 
 
 * Screenshot for datadog.yaml changes:
-  
-  ![](Images/Tags.png)
+
+  <img src="Images/Tags.png" width="1000">
+ 
   
  
 
