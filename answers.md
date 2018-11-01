@@ -39,7 +39,7 @@ In Datadog agent, it was very simple to locate datadog.yaml in Conf.d directory 
 
 * Screenshot for datadog.yaml changes:
 
-  <img src="Images/Tags.png" width="1000">
+  <img src="Images/Tags.png" width="500">
  
   
  
