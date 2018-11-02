@@ -125,7 +125,7 @@ Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding
 
 This section was mainly around communication and collaboration capabilities that Datadog provides. Taking snapshot and tagging other users to share is a great feature plus integration with collaboration platform such as slack is a big plus. I was amazed how smoothly all these functions work. 
 
-## 4.1 Threshold
+## 4.1 Threshold & Alerts
 
 Following is an e.g. where I took a custom metric and applied threshold. All the parameters pop -up automatically as you write message logic. Again, both simplified and still highly flexible is the key take away. 
 
@@ -137,7 +137,7 @@ Following is an e.g. where I took a custom metric and applied threshold. All the
   
   <img src="Images/Alert_Screenshot.png" width="500">
   
-## 4.2 Downtime Management
+### Bonus Question 3 - Downtime Management
 
 Downtime configuration is critical to suppress noise and keep adoption level high for a monitoring platform. Highly configurable and yet straightforward was my experience while configuring this. UI is was fast although load was negligible as I monitored only two hosts.
 
@@ -149,7 +149,6 @@ Downtime configuration is critical to suppress noise and keep adoption level hig
   
   <img src="Images/Downtime_Notification_Screenshot.png" width="500">
   
-  ### Bonus Question 3
   
 # 5. Collecting APM Data
 
