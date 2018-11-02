@@ -74,10 +74,15 @@ class HelloCheck(AgentCheck):
       def check(self, instance):
           self.gauge('my_metric', random.randint(1,1000))
 ```
-* Check.yaml 
-  init_config:
-  instances:
+* Check.yaml
+
+    init_config:
+  
+    instances:
+  
       - min_collection_interval: 45
+      
+* Below is the screenshot for Custom Metric in UI
   
   <img src="Images/Custom_Metric.png" width="500">
   
@@ -118,7 +123,11 @@ This section was mainly around communication and collaboration capabilities that
 
 Following is an e.g. where I took a custom metric and applied threshold. All the parameters pop -up automatically as you write message logic. Again, both simplified and still highly flexible is the key take away. 
 
-  <img src="Threshold.png" width="500">
+  <img src="Images/Threshold.png" width="500">
+  
+  <img src="Images/Threshold2.png" width="500">
+  
+  
 
 
    
