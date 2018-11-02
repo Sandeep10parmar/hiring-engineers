@@ -91,7 +91,7 @@ Can you change the collection interval without modifying the Python check file y
 
 Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding .yaml file
 
-# 3. Visualizng Data
+# 3. Visualizing Data
 
 ## 3.1 Custom Metric scoped over host
 
