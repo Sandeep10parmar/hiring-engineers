@@ -177,6 +177,12 @@ I am not sure if this was done on purpose but to run newer version of PIP is req
   
   ### Bonus Question 4
   
+  Difference between a Service and a Resource
+  
+  A Service is set of processes/instructions that do the same job. For e.g. an application may contain several services such as web server service, logic service and a database service. In more complex environment number of services can go even higher. 
+  
+  A Resource is an action for a service. As an e.g. for MySQL database service, a resource is the query itself. 
+  
 # 6. Final Question
 
 Is there anything creative you would use Datadog for?
