@@ -174,7 +174,9 @@ I am not sure if this was done on purpose but to run newer version of PIP is req
   
   ### Bonus Question 4
   
-# 6. Final Question 
+# 6. Final Question
+
+Is there anything creative you would use Datadog for?
 
 I am big fan and user of home automation products – auto door locks, garage opener, lights, sprinkler system, security cameras, smart thermostats, etc. As number of automation devices increases, managing automation itself become challenging. There are already 10+ apps that I am using to manage entire automation. App used for system security is separate than managing sprinkler systems and so on. It would be great to be alerted when my door is unlocked, and motion is detected in security camera in same platform/app. Datadog is surely capable of integrating with all these platforms through API’s to get information required to generate alert. And of course, entire family can install one app and be on same page. That itself is a big help!!
 
