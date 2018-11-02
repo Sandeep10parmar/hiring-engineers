@@ -191,6 +191,7 @@ I am big fan and user of home automation products – auto door locks, garage op
 
 Another area where I see application of Datadog is for monitoring cloud bills for large Enterprises. Business units in Enterprise are accelerating application migration to cloud, however, keeping an eye on cloud spend is critical as OpEx can shoot up very quickly in Public Clouds. Dev and business users can monitor their cloud spending via API call. 
 
+
   
 
 
