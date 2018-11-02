@@ -91,7 +91,7 @@ Can you change the collection interval without modifying the Python check file y
 
 Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding .yaml file
 
-# 3. Visualizaing Data
+# 3. Visualizng Data
 
 ## 3.1 Custom Metric scoped over host
 
@@ -119,7 +119,7 @@ Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding
   
   What is the Anomaly graph displaying? 
   
-  Timeseries graph of metric mysql connections over a 24 hr window for host precise 64. The actual throughput is in purple; the gray band shows the anomaly detection algorithm's predicted range based on data from prior days. Red shows values the metric was not in expected range. 
+  Timeseries graph of metric mysql connections over a 24 hr window for host precise 64. The actual throughput is in purple; the gray band shows the anomaly detection algorithm's predicted range based on data from prior days. Red shows value the metric was not in expected range. 
   
 # 4. Monitoring Data
 
@@ -167,11 +167,11 @@ I am not sure if this was done on purpose but to run newer version of PIP is req
 
   <img src="Images/APM_1.png" width="500">
   
-* Here are Service Metrics captured OTB. Custom instrumentation will allow more deep-dive visbility especially for custom applications where auto-instrumentation is not available. 
+* Here are Service Metrics captured OTB. Custom instrumentation will allow more deep-dive visibility especially for custom applications where auto-instrumentation is not available. 
 
   <img src="Images/APM_2.png" width="500">
   
-* 404 error code was captured on Flask.request method which is typically a misconfugration for an object on front end. 
+* 404 error code was captured on Flask.request method which is typically a misconfiguration for an object on front end. 
 
   <img src="Images/APM_404_Code.png" width="500">
   
