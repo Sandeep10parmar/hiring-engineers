@@ -86,7 +86,7 @@ class HelloCheck(AgentCheck):
   
   <img src="Images/Custom_Metric.png" width="500">
   
-### Bonus Question
+### Bonus Question 1
 Can you change the collection interval without modifying the Python check file you created?
 
 Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding .yaml file
@@ -114,6 +114,8 @@ Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding
 ## 3.4 Timeboard with 5 mins timeframe
 
   <img src="Images/T_5.png" width="500"> 
+  
+  ### Bonus Question 2
   
 # 4. Monitoring Data
 
@@ -143,6 +145,8 @@ Downtime configuration is critical to suppress noise and keep adoption level hig
   
   <img src="Images/Downtime_Notification_Screenshot.png" width="500">
   
+  ### Bonus Question 3
+  
 # 5. Collecting APM Data
 
 So far, we covered Host, OS, System, Disk, Network and Database level metrics. In this section I learned about APM capabilities of Datadog platform. Having worked on other APM products such as AppDynamics and Dynatrace, I can tell that comparatively it was simpler to turn on APM and instrumentation. There isn’t a separate agent for each set of metrics except MacOS which I believe will be consolidated in upcoming release. 
@@ -168,7 +172,9 @@ I am not sure if this was done on purpose but to run newer version of PIP is req
 
   <img src="Images/APM_404_Code.png" width="500">
   
-### Bonus Question 
+  ### Bonus Question 4
+  
+# 6. Final Question 
 
 I am big fan and user of home automation products – auto door locks, garage opener, lights, sprinkler system, security cameras, smart thermostats, etc. As number of automation devices increases, managing automation itself become challenging. There are already 10+ apps that I am using to manage entire automation. App used for system security is separate than managing sprinkler systems and so on. It would be great to be alerted when my door is unlocked, and motion is detected in security camera in same platform/app. Datadog is surely capable of integrating with all these platforms through API’s to get information required to generate alert. And of course, entire family can install one app and be on same page. That itself is a big help!!
 
