@@ -117,6 +117,10 @@ Answer: Yes, by defining “min_collection_interval” in conf.d / corresponding
   
   ### Bonus Question 2
   
+  What is the Anomaly graph displaying? 
+  
+  Timeseries graph of metric mysql connections over a 24 hr window for host precise 64. The actual throughput is in purple; the gray band shows the anomaly detection algorithm's predicted range based on data from prior days. Red shows values the metric was not in expected range. 
+  
 # 4. Monitoring Data
 
 This section was mainly around communication and collaboration capabilities that Datadog provides. Taking snapshot and tagging other users to share is a great feature plus integration with collaboration platform such as slack is a big plus. I was amazed how smoothly all these functions work. 
@@ -180,7 +184,7 @@ Is there anything creative you would use Datadog for?
 
 I am big fan and user of home automation products – auto door locks, garage opener, lights, sprinkler system, security cameras, smart thermostats, etc. As number of automation devices increases, managing automation itself become challenging. There are already 10+ apps that I am using to manage entire automation. App used for system security is separate than managing sprinkler systems and so on. It would be great to be alerted when my door is unlocked, and motion is detected in security camera in same platform/app. Datadog is surely capable of integrating with all these platforms through API’s to get information required to generate alert. And of course, entire family can install one app and be on same page. That itself is a big help!!
 
-Another area where I see application of Datadog is for monitoring cloud bills for large Enterprises. Business units in Enterprise are accelerating application migration to cloud, however, keeping an eye on cloud spend is critical as OpEx can shoot up very quickly in Public Clouds. Dev and business users can monitor their cloud spending via API.
+Another area where I see application of Datadog is for monitoring cloud bills for large Enterprises. Business units in Enterprise are accelerating application migration to cloud, however, keeping an eye on cloud spend is critical as OpEx can shoot up very quickly in Public Clouds. Dev and business users can monitor their cloud spending via API call. 
 
   
 
